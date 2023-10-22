@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+p{
+    font-size: 1.125em;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(27, 66%, 92%);
+}
+
+.expense-component{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.balance-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(10, 79%, 65%);
+    padding: 1em 2em;
+    color: hsl(33, 100%, 98%);
+    line-height: 2.5em;
+    border-radius: 1em;
+}
+
+.final-balance{
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 1em;
+}
+
+.chart{
+    display: flex;
+    gap: 1em;
+    padding-bottom: 2em;
+    border-bottom: 2px solid hsl(28, 10%, 53%);
+}
+
+.total-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    color: hsl(28, 10%, 53%);
+
+}
+
+.percentage{
+    text-align: right;
+}
