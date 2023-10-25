@@ -9,10 +9,6 @@ html, body{
     height: 100%;
 }
 
-p{
-    font-size: 1.125em;
-}
-
 body{
     display: flex;
     flex-direction: column;
@@ -21,11 +17,17 @@ body{
     background-color: hsl(27, 66%, 92%);
 }
 
+p{
+    font-size: 1.125em;
+}
+
 .expense-component{
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
+
+
 
 .balance-container{
     display: flex;
@@ -50,11 +52,17 @@ body{
     border-radius: 1em;
 }
 
-.chart{
+.d3-chart{
     display: flex;
+    align-items: flex-end;
     gap: 1em;
-    padding-bottom: 2em;
+
     border-bottom: 2px solid hsl(28, 10%, 53%);
+}
+
+.bar{
+    width: 3em;
+    border-radius: 5px;
 }
 
 .total-container{
